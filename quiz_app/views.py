@@ -5,7 +5,7 @@ from quiz_app.serializers import *
 from rest_framework import generics, permissions, pagination
 from rest_framework.views import APIView
 from blog_app.models import *
-from blog_app.serializer import *
+from blog_app.serializers import *
 
 # Create your views here.
 class QuizHomePage(generics.ListAPIView):
